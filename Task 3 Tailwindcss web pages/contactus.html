@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+
+<body class="bg-gray-100">
+
+    <header class="bg-blue-500 text-white p-4">
+        <h1 class="text-3xl font-semibold">Contact Us</h1>
+        <p class="text-sm">We'd love to hear from you! Reach out to us for any inquiries or assistance.</p>
+    </header>
+
+    <div class="container mx-auto mt-8 p-8 bg-white shadow-lg rounded-lg">
+
+        <div>
+            <h2 class="text-2xl font-semibold mb-4">Contact Information</h2>
+            <p class="text-gray-700">
+                Feel free to contact us using the information below:
+            </p>
+            <ul class="list-disc list-inside text-gray-700">
+                <li>Email: <a href="mailto:syedgulshera2@gmail.com" class="text-blue-500 hover:underline">syedgulshera2@gmail.com</a></li>
+                <li>Phone: <a href="tel:+923071001460" class="text-blue-500 hover:underline">+92 307-1001460</a></li>
+                <li>Address: Gulshan e Ravi C Block Plot-366</li>
+            </ul>
+        </div>
+
+        <div class="mt-8">
+            <h2 class="text-2xl font-semibold mb-4">Send Us a Message</h2>
+            <form action="#" method="post" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-600">Your Name</label>
+                    <input type="text" id="name" name="name" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-600">Your Email</label>
+                    <input type="email" id="email" name="email" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300">
+                </div>
+                <div class="col-span-2">
+                    <label for="message" class="block text-sm font-medium text-gray-600">Your Message</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300"></textarea>
+                </div>
+                <div class="col-span-2 text-center">
+                    <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition duration-300">Send Message</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Embedded Google Map -->
+        <div class="mt-8">
+            <h2 class="text-2xl font-semibold mb-4">Our Location</h2>
+            <!-- Paste the embedded map code here -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.9948318785664!2d74.2823133247864!3d31.55175644559212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190335c6e4c053%3A0x767b0c3aaf1efe68!2sPlot%2088%2C%20Thoker%20Niaz%20Baig%20Block%20C%20Gulshan-e-Ravi%2C%20Lahore%2C%20Punjab%2054000%2C%20Pakistan!5e0!3m2!1sen!2s!4v1705688284786!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+
+    </div>
+
+</body>
+
+</html>
